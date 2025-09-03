@@ -11,7 +11,7 @@ public class BallController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.useGravity = true; // activamos gravedad para caída natural
+        //rb.useGravity = true; // activamos gravedad para caída natural
     }
 
     void OnCollisionEnter(Collision collision)
